@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: #1A1A2A;
+}
+
+#login-box{
+    width: 700px;
+    height: 500px;
+    background-color: #253958;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#welcome-text{
+    color: white;
+    background-color: #253958;
+    position: absolute;
+    left: 38%;
+    right: 38%;
+    top: 20%;
+    font-size: x-large;
+}
+
