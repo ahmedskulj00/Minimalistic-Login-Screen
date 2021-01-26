@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+}
+
+body{
     background-color: #1A1A2A;
 }
 
@@ -29,3 +32,26 @@
     font-size: x-large;
 }
 
+.input-group{
+    width: 300px;
+    position: relative;
+    top: 200px;
+    left: 28%;
+    right: 28%;
+    
+}
+
+.form-control{
+    background-color: #253958 !important;
+}
+
+.btn{
+    background-color:  #1A1A2A !important;
+    color: white;
+    position: absolute;
+    top: 62%;
+    left: 45%;
+}
+.btn:hover{
+    color: white;
+}
