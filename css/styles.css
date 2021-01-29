@@ -56,3 +56,22 @@ body{
 .btn:hover{
     color: white;
 }
+
+.success-text{
+    color: white;
+    font-size: 30px;
+    line-height: 400px;
+    padding-left: 20%;
+    animation: type 3s;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes type{
+0%{
+    width: 0ch;
+}
+100%{
+    width: 32ch;
+}
+}
