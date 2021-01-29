@@ -11,7 +11,7 @@ function checkLogin(){
         hide()
         var success = document.createElement("div")
         success.classList.add("success-text")
-        success.innerHTML = "You have successfully logged in!"
+        success.innerHTML = "You have successfully logged-in!"
         loginBox.appendChild(success)
     }
    else{
